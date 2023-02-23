@@ -3,8 +3,6 @@ import React, { useState } from "react";
 
 function ListDis(props) {
 
-    const [vara , setvara] = useState (0);
-
     return (
     <div
       className="container">
