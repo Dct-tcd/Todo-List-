@@ -2,9 +2,6 @@ import React, { useState } from "react";
 // import Delete from './assets/Delete.png';
 
 function ListDis(props) {
-// let handlefind = (key) => {
-//     return key-;
-// }
 
     const [vara , setvara] = useState (0);
 
@@ -12,7 +9,6 @@ function ListDis(props) {
     <div
       className="container">
       <div>
-        {/* {console.log(props.List)} */}
         {
         
         props.List.map((key) => (
@@ -25,6 +21,7 @@ function ListDis(props) {
               padding: "5px 5px 5px 5px ",
               margin:'3px',
               backgroundColor: "beige",
+              borderRadius:'4px'
             }}
           >
             {key}
